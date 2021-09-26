@@ -7,24 +7,20 @@
 ```bash
 # Python 2.7
 sudo apt-get install python-tk
-```
-```bash
+
 # Python 3
 sudo apt-get install python3-tk
+```
 
 ## Executar modo terminal
 
 ```python
-
 # qtde de requisitos == 2
 python3.6 main.py 
-
 # qtde de requisitos == 3
 python3.6 main.py 3
-
 ```
 
-```
 ## Executar modo gráfico
 
 ```python
