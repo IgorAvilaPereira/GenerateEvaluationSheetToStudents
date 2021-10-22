@@ -1,6 +1,6 @@
 # Gerar Planilha de Avaliação
 
-## Instalação das Dependências
+## Instalação de Dependências
 
 ### Tkinter
 
@@ -11,6 +11,10 @@ sudo apt-get install python-tk
 # Python 3
 sudo apt-get install python3-tk
 ```
+
+## Listagem de Alunos
+
+ Atualizar _students.csv_ 
 
 ## Executar modo terminal
 
