@@ -1,6 +1,6 @@
-# Gerar Planilha de Avaliação
+# Build Generate Evaluation Sheet To Students
 
-## Instalação de Dependências
+## Dependences
 
 ### Tkinter
 
@@ -12,11 +12,11 @@ sudo apt-get install python-tk
 sudo apt-get install python3-tk
 ```
 
-## Listagem de Alunos
+## List of Students
 
- Atualizar _students.csv_ 
+ _students.csv_ 
 
-## Executar modo terminal
+## Terminal
 
 ```python
 # qtde de requisitos == 2
@@ -25,13 +25,13 @@ python3.6 main.py
 python3.6 main.py 3
 ```
 
-## Executar modo gráfico
+## GUI mode
 
 ```python
 python3.6 app.py 
 ```
 
-## Criar executável
+## Make a Executable
 
 ```python
 pyinstaller -D -F -n main -c "app.py"
