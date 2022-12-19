@@ -33,6 +33,17 @@ python3.6 app.py
 
 ## Make a Executable
 
+### Install Pyinstaller
+
+```python
+-- pip2
+pip install pyinstaller
+-- pip3
+pip3 install pyinstaller
+```
+
+### Build 
+
 ```python
 pyinstaller -D -F -n main -c "app.py"
 ```
