@@ -19,9 +19,9 @@ sudo apt-get install python3-tk
 ## Terminal
 
 ```python
-# qtde de requisitos == 2
+# number of questions to students == 2 (default)
 python3.6 main.py 
-# qtde de requisitos == 3
+# number of questions to students == 3
 python3.6 main.py 3
 ```
 
