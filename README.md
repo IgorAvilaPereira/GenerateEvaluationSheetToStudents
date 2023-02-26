@@ -59,5 +59,5 @@ cd /dist
 ```
 
 ```bash
-./app
+./main
 ```
