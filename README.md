@@ -12,6 +12,12 @@ sudo apt-get install python-tk
 sudo apt-get install python3-tk
 ```
 
+### ezodf
+
+```bash
+pip install ezodf
+```
+
 ## List of Students
 
  _students.csv_ 
