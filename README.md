@@ -1,5 +1,17 @@
 # Build Generate Evaluation Sheet To Students
 
+## Demo
+
+![](demo.gif)
+
+## Input: List of Students
+
+ _students.csv_ : add your students here
+
+ ## Ouput: Planilha_Avaliacao.ods
+
+ __planilha_avaliacao.ods__ : list of students and your requirements tests
+
 ## Dependences
 
 ### Tkinter
@@ -17,10 +29,6 @@ sudo apt-get install python3-tk
 ```bash
 pip install ezodf
 ```
-
-## List of Students
-
- _students.csv_ 
 
 ## Terminal
 
