@@ -4,6 +4,12 @@ Automate the creation of evaluation spreadsheets for students, simplifying gradi
 
 ---
 
+## 🎬 Demo
+
+![](demo.gif)
+
+---
+
 ## 🛠️ Main Features
 
 - **Automatic evaluation spreadsheet generation**: Creates `.ods` files with student info and evaluation questions.
@@ -71,11 +77,7 @@ Automate the creation of evaluation spreadsheets for students, simplifying gradi
 
 ---
 
-## 🎬 Demo
 
-![](demo.gif)
-
----
 
 ## ⚙️ Build Executable (Optional)
 
