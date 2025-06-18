@@ -1,71 +1,95 @@
-# Build Generate Evaluation Sheet To Students
+# Generate Evaluation Sheet To Students
 
-## Demo
+Automate the creation of evaluation spreadsheets for students, simplifying grading and feedback.
+
+---
+
+## 🛠️ Main Features
+
+- **Automatic evaluation spreadsheet generation**: Creates `.ods` files with student info and evaluation questions.
+- **Graphical User Interface (GUI)**: Easy-to-use interface built with Tkinter.
+- **Customizable number of questions**: Default is 2 questions per student; configurable via command line.
+
+---
+
+## 🔧 Technologies Used
+
+- Python 3.6  
+- Tkinter (GUI)  
+- ezodf (for `.ods` spreadsheet manipulation)  
+
+---
+
+## 📁 Repository Structure
+
+- `students.csv` — List of students to be evaluated  
+- `planilha_avaliacao.ods` — Generated evaluation spreadsheet  
+- `app.py` — Launches the GUI application  
+- `main.py` — Runs the program in terminal mode  
+- `negocio.py` — Business logic implementation  
+- `persistencia.py` — Data persistence layer  
+- `demo.gif` — Demonstration of the program in action  
+
+---
+
+## 🚀 How to Use
+
+1. **Install dependencies**
+
+   ```bash
+   pip install ezodf
+   sudo apt-get install python3-tk   # For Tkinter on Linux
+``
+
+2. **Run the program**
+
+   * Terminal mode (default 2 questions):
+
+     ```bash
+     python3 main.py
+     ```
+
+   * Terminal mode with custom questions (e.g., 3 questions):
+
+     ```bash
+     python3 main.py 3
+     ```
+
+   * GUI mode:
+
+     ```bash
+     python3 app.py
+     ```
+
+3. **Prepare your students**
+
+   Add student details to `students.csv` following the provided format.
+
+4. **Generate the spreadsheet**
+
+   Run the program to create a customized evaluation sheet for your students.
+
+---
+
+## 🎬 Demo
 
 ![](demo.gif)
 
-## Input: List of Students
+---
 
- _students.csv_ : add your students here
+## ⚙️ Build Executable (Optional)
 
- ## Ouput: Planilha_Avaliacao.ods
+1. Install PyInstaller:
 
- __planilha_avaliacao.ods__ : list of students and your requirements tests
+   ```bash
+   pip3 install pyinstaller
+   ```
 
-## Dependences
+2. Build executable:
 
-### Tkinter
+   ```bash
+   pyinstaller -D -F -n main -c "app.py"
+   cd dist
+   ./main
+   ```
 
-```bash
-# Python 2.7
-sudo apt-get install python-tk
-
-# Python 3
-sudo apt-get install python3-tk
-```
-
-### ezodf
-
-```bash
-pip install ezodf
-```
-
-## Terminal
-
-```python
-# number of questions to students == 2 (default)
-python3.6 main.py 
-# number of questions to students == 3
-python3.6 main.py 3
-```
-
-## GUI mode
-
-```python
-python3.6 app.py 
-```
-
-## Make a Executable
-
-### Install Pyinstaller
-
-```python
--- pip2
-pip install pyinstaller
--- pip3
-pip3 install pyinstaller
-```
-
-### Build 
-
-```python
-pyinstaller -D -F -n main -c "app.py"
-```
-
-```bash
-cd /dist
-```
-
-```bash
-./main
-```
